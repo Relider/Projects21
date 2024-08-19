@@ -1,0 +1,12 @@
+release/graph.o
+release/main.o
+release/mainwindow.o
+release/qcustomplot.o
+release/s21_Model.o
+release/s21_calculate.o
+release/s21_error_func.o
+release/s21_parser.o
+release/s21_stack.o
+release/moc_graph.o
+release/moc_mainwindow.o
+release/moc_qcustomplot.o

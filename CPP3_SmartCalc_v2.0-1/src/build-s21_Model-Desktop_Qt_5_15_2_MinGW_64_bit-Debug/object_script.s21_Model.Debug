@@ -1,0 +1,12 @@
+debug/graph.o
+debug/main.o
+debug/mainwindow.o
+debug/qcustomplot.o
+debug/s21_Model.o
+debug/s21_calculate.o
+debug/s21_error_func.o
+debug/s21_parser.o
+debug/s21_stack.o
+debug/moc_graph.o
+debug/moc_mainwindow.o
+debug/moc_qcustomplot.o

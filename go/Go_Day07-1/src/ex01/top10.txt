@@ -1,0 +1,7 @@
+Test case number 0 finished with 5200 ㎲
+Test case number 3 finished with 1400 ㎲
+Test case number 6 finished with 1400 ㎲
+Test case number 1 finished with 1300 ㎲
+Test case number 4 finished with 1300 ㎲
+Test case number 5 finished with 1300 ㎲
+Test case number 2 finished with 1100 ㎲

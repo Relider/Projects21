@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1122</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="about_model_lable">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>50</y>
+      <width>211</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Info about model:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="model_name_lable">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>80</y>
+      <width>311</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Model name: </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="gif_button">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>160</y>
+      <width>151</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Gif</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="screenshot_button">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>160</y>
+      <width>151</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Screenshot</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="move_lable">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>210</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Move</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="x_move_lable">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>230</y>
+      <width>21</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="x_move_spin_box">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>230</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="y_move_lable">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>230</y>
+      <width>21</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Y</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="y_move_spin_box">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>230</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="z_move_lable">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>230</y>
+      <width>21</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Z</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="z_move_spin_box">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>230</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rotation_lable">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>280</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Rotation</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="y_rotation_lable">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>300</y>
+      <width>21</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Y</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="z_rotation_spin_box">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>300</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="y_rotation_spin_box">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>300</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="z_rotation_lable">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>300</y>
+      <width>21</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Z</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="x_rotation_lable">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>300</y>
+      <width>21</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="x_rotation_spin_box">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>300</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="scaling_lable">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>350</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Scaling</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="scaling_slider">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>380</y>
+      <width>311</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>30</number>
+    </property>
+    <property name="singleStep">
+     <number>1</number>
+    </property>
+    <property name="pageStep">
+     <number>1</number>
+    </property>
+    <property name="sliderPosition">
+     <number>1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="num_of_vert_lable">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>110</y>
+      <width>311</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Number of vertices: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="num_of_edg_lable">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>140</y>
+      <width>311</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Number of edges: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="projection_lable">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>410</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Projection type:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="color_lable">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>480</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Back:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="set_color_button">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>480</y>
+      <width>251</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Set color</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="vertices_lable">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>520</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Vertices:</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="vertices_slider">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>550</y>
+      <width>311</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="set_vert_color_button">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>580</y>
+      <width>151</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Set color</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="set_edge_color_button">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>690</y>
+      <width>151</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Set color</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="edge_slider">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>660</y>
+      <width>311</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="edge_lable">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>630</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Edges:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="open_file_button">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>10</y>
+      <width>311</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Open file</string>
+    </property>
+   </widget>
+   <widget class="glview" name="view">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>781</width>
+      <height>711</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="vert_combo_box">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>580</y>
+      <width>161</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <property name="maxVisibleItems">
+     <number>2</number>
+    </property>
+    <property name="maxCount">
+     <number>10</number>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="modelColumn">
+     <number>0</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Smooth</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sprite</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="edge_combo_box">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>690</y>
+      <width>161</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <property name="maxVisibleItems">
+     <number>2</number>
+    </property>
+    <property name="maxCount">
+     <number>10</number>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="modelColumn">
+     <number>0</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Solid</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dashed</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="projection_combo_box">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>440</y>
+      <width>331</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <item>
+     <property name="text">
+      <string>Central projection</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Parallel projection</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>glview</class>
+   <extends>QOpenGLWidget</extends>
+   <header>glview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

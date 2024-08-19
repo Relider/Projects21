@@ -1,0 +1,7 @@
+Test case number 0 minCoins2 finished with 17600 ㎲, minCoins with 1200 ㎲. The difference is: 16400
+Test case number 6 minCoins2 finished with 5400 ㎲, minCoins with 1100 ㎲. The difference is: 4300
+Test case number 1 minCoins2 finished with 1200 ㎲, minCoins with 1100 ㎲. The difference is: 100
+Test case number 3 minCoins2 finished with 1100 ㎲, minCoins with 1100 ㎲. The difference is: 0
+Test case number 4 minCoins2 finished with 1100 ㎲, minCoins with 1100 ㎲. The difference is: 0
+Test case number 5 minCoins2 finished with 1100 ㎲, minCoins with 1000 ㎲. The difference is: 100
+Test case number 2 minCoins2 finished with 900 ㎲, minCoins with 900 ㎲. The difference is: 0
