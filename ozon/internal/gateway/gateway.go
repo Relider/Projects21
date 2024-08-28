@@ -1,0 +1,27 @@
+package gateway
+
+import "ozon/internal/models"
+
+type Gateways struct {
+	Posts
+	Comments
+}
+
+func CreateGateways(posts Posts, comments Comments) *Gateways {
+	return &Gateways{
+		Posts:    posts,
+		Comments: comments,
+	}
+}
+
+type Posts interface {
+	CreatePost(post models.Post) (models.Post, error)
+	GetPostById(id int) (models.Post, error)
+	GetAllPosts(limit, offset int) ([]models.Post, error)
+}
+
+type Comments interface {
+	CreateComment(comment models.Comment) (models.Comment, error)
+	GetCommentsByPost(postId, limit, offset int) ([]*models.Comment, error)
+	GetRepliesOfComment(commentId int) ([]*models.Comment, error)
+}
